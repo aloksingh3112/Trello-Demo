@@ -1,0 +1,53 @@
+.taskList {
+  min-height: 500px;
+  width: 300px;
+  margin-left: 20px;
+  background-color: #ebecf0;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+}
+
+.taskListContainer {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.listWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.taskListHeader {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid lightgrey;
+  min-height: 50px;
+  align-items: center;
+  padding: 5px;
+}
+
+.listDeleteIcon,.modalClose{
+  cursor: pointer;
+}
+
+
+.taskItem {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+  cursor: pointer;
+  max-width: 300px;
+  min-height: 80px;
+  padding: 8px;
+}
+
+.taskItemHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
